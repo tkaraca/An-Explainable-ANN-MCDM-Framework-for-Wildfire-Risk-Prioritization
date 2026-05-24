@@ -1,0 +1,29 @@
+{
+  "weight_sources_requested": [
+    "pi",
+    "shap",
+    "equal",
+    "entropy",
+    "critic"
+  ],
+  "weight_sources_completed": [
+    "pi",
+    "shap",
+    "equal",
+    "entropy",
+    "critic"
+  ],
+  "ranking_methods_requested": [
+    "probability",
+    "topsis",
+    "vikor"
+  ],
+  "all_grid_combos": [
+    "probability",
+    "topsis:pi",
+    "vikor:pi",
+    "topsis:shap",
+    "vikor:shap"
+  ],
+  "warnings": []
+}

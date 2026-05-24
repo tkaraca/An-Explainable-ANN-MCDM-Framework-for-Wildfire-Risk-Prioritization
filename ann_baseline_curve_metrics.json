@@ -1,0 +1,16 @@
+{
+  "csv": "outputs_full_compare\\test_ranked_comparison.csv",
+  "label_col": "YANGIN_DURUMU",
+  "score_col": "score_probability_mlp",
+  "n_samples": 21758,
+  "n_positive": 1978,
+  "positive_rate": 0.09090909090909091,
+  "roc_auc": 0.9836874987859375,
+  "pr_auc": 0.9338737993567213,
+  "threshold_used_for_f1": 0.5,
+  "f1_at_threshold": 0.8766046633481792,
+  "metrics_json_found": true,
+  "roc_curve_png": "outputs_full_compare\\ann_baseline_roc_curve.png",
+  "pr_curve_png": "outputs_full_compare\\ann_baseline_pr_curve.png",
+  "combined_png": "outputs_full_compare\\ann_baseline_roc_pr_combined.png"
+}

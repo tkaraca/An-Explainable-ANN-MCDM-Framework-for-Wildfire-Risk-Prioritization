@@ -1,0 +1,31 @@
+{
+  "split": "spatial",
+  "max_rows": null,
+  "train_full_rows": 862633,
+  "val_full_rows": 252075,
+  "test_full_rows": 286675,
+  "train_used_rows": 45390,
+  "val_used_rows": 51326,
+  "test_used_rows": 21758,
+  "test_positive_rate": 0.09090909090909091,
+  "leaky_numeric_features_added": [
+    "leaky_brightness",
+    "leaky_confidence",
+    "leaky_frp",
+    "leaky_scan",
+    "leaky_track",
+    "leaky_bright_t31"
+  ],
+  "leaky_presence_indicators_added": [
+    "has_scan",
+    "has_track",
+    "has_acq_date",
+    "has_acq_time",
+    "has_satellite",
+    "has_instrument",
+    "has_version",
+    "has_bright_t31",
+    "has_daynight",
+    "has_type"
+  ]
+}
